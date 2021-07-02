@@ -1,3 +1,7 @@
 body{ background : url(https://credencial.usach.cl/sites/all/themes/credencial/logo.png);
     background-repeat: no-repeat; * /* no repite la imagen de fondo*/
     }
+
+footer{
+    background-color: darkgray;
+}
