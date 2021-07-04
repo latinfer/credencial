@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" type="text/css" href="estilo1.css">
     <title>Credencial v1</title>
     <style type="text/css">
@@ -46,7 +46,7 @@ footer {
 </style> </head>
   <body role="alert" id="TITULO1">
     <p><img src="https://credencial.usach.cl/sites/all/themes/credencial/logo.png"
-        alt="" title="LOGO "> <a href="http://127.0.0.1:5500/HTML/CREDENCIAL.HTML"> <h2>CREDENCIAL UNIVERSITARIA</h2> </a>
+        alt="" title="LOGO "> <a href="http://127.0.0.1:5501/HTML/CREDENCIAL.HTML"> <h2>CREDENCIAL UNIVERSITARIA</h2> </a>
       </p>
     <hr style="color: #000099; align: left ; 24px;">
     <p>
@@ -68,9 +68,94 @@ footer {
           <td style="text-align: center; vertical-align: middle; background-color: white;">BENEFINICIOS</td>
           <td style="width: 223.5px; text-align: center; vertical-align: middle; background-color: white;"
             id="TITULO1">CONTACTANOS </td>
-          <td style="height: 20px;"><img src="https://credencial.usach.cl/sites/default/files/styles/slide/public/extravio.jpg?itok=L09gvxKZ"
+          <td style="height: 20px;"> <a href="http://127.0.0.1:5500/HTML/contactanos.HTML"</a>
+            <img src="https://credencial.usach.cl/sites/default/files/styles/slide/public/extravio.jpg?itok=L09gvxKZ" 
               alt="" title="credencial" style="width: 70px; height: 53px;"></td>
         </tr>
       </tbody>
     </table>
     <p></p>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="globalsign-domain-verification" content="aspt8LtMtqg4YbObq7KgzB4TEBfsGgubp3M2evbdQg" />
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+<title>Ingreso de requerimiento</title>
+<link href="../css/web_requerimiento_oirs.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../libs/js/jquery-1.2.6.js"></script>
+<script type="text/javascript" src="../libs/js/web_requerimientoOIRS.js?03122014"></script>
+</head>
+<body>
+   <hr style="height: 0px; color: navy;"> <!--Barra horizontal separa el menu superior-->
+<div id="wrapper">
+    <!--div id="header">Ingreso de requerimiento</div-->
+    <div id="container">
+        <div id="content">
+        	                            <div id="main"><!-- Para comunicarse con nosotros, realizarlo vía requerimiento <a href="https://helpdesk.segic.cl/publics/web_login.php">aquí</a> -->
+
+<form action="web_oirs.php" method="post" enctype="multipart/form-data" name="ff_form12" id="ff_form12" onsubmit="return ff_validate_submit(this,'submit');">
+<h1 style="color:#025ca9">Formulario OIRS</h1>
+<h2>Datos Personales</h2>
+
+
+   <div id="ff_div164" style="">Rut <span style="color:#FF0202">*</span></div>
+  <div id="ff_div165" style="">
+    <input id="ff_elem168" size="40" maxlength="20" type="text" name="rut" value="" class="inputbox" onblur="this.value=formato_rut(this.value,true)"/>
+  </div>
+  <div id="ff_div166" style="">Nombre <span style="color:#FF0202">*</span></div>
+  <div id="ff_div167" style="">
+    <input id="ff_elem167" size="40" maxlength="20" type="text" name="nombre" value="" class="inputbox"/>
+  </div>
+  <div id="ff_div168" style="">Apellido Paterno <span style="color:#FF0202">*</span></div>
+  <div id="ff_div169" style="">
+    <input id="ff_elem169" size="40" maxlength="40" type="text" name="app" value="" class="inputbox"/>
+  </div>
+  <div id="ff_div186" style="">Apellido Materno <span style="color:#FF0202">*</span></div>
+  <div id="ff_div185" style="">
+    <input id="ff_elem185" size="40" maxlength="40" type="text" name="apm" value="" class="inputbox"/>
+  </div>
+  <div id="ff_div170" style="">Email <span style="color:#FF0202">*</span></div>
+  <div id="ff_div171" style="">
+    <input id="ff_elem171" size="40" maxlength="40" type="text" name="email" value="" class="inputbox"/>
+  </div>
+  <div id="ff_div172" style="">Tel&eacute;fono</div>
+  <div id="ff_div173" style="">
+    <input id="ff_elem173" size="20" maxlength="20" type="text" name="telefono" value="" class="inputbox"/>
+  </div>
+  <div id="ff_div176" style="">Tipo de Mensaje <span style="color:#FF0202">*</span></div>
+  <div id="ff_div183" style="">
+    <select id="ff_elem183" name="tipo"  class="inputbox">
+      <option value="105" selected="selected">Consulta</option>
+      <option value="106">Sugerencia</option>
+      <option value="107">Reclamo</option>
+	  <option value="440">Felicitaciones</option>
+    </select>
+  </div>
+  <div id="ff_div174" style="">Mensaje <span style="color:#FF0202">*</span></div>
+  <div id="ff_div181" style="">
+    <textarea id="ff_elem181" name="mensaje" cols="40" rows="9" class="inputbox"></textarea>
+  </div>
+  <div id="ff_div182" style="">
+    <input id="ff_elem182" type="submit" onclick="validate();" name="boton1" value="Enviar"  class="button" />
+  </div>
+  <input type="hidden" name="opc" value="Save" />
+</form></div>
+        </div>
+    </div>
+    <!--div class="footer">
+        <span>
+        Servicio de Gesti&oacute;n Inform&aacute;tica y Computaci&oacute;n - Universidad de Santiago de Chile Fono Mesa Central (02) 718 02 00 
+        </span>
+    </div-->
+</div>
+</body>
+<footer> <br>  
+      <br>
+      <br>
+      <hr style="height: 0px; color: navy;">
+      <hr style="color: white; margin-left: auto; margin-right: auto;" ><br>
+      Universidad de Santiago de Chile.<br>
+      Avenida Alameda Libertador Bernardo O’Higgins 3363. Estación Central.
+      Santiago. <br>
+      ChileMesa central (562) 718 00 00 </footer>
+  </body>
+
+</html>
